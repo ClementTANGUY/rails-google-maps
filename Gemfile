@@ -2,10 +2,10 @@ source "https://rubygems.org"
 
 ruby "2.5.1"
 gem "rails", "5.0.5"
-gem "pg"
+gem 'pg', '~> 0.21'
 gem "puma"
 
-gem "sass-rails"
+gem "sassc-rails"
 gem "uglifier"
 gem "jquery-rails"
 gem "bootstrap-sass"
